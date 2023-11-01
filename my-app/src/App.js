@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header>
-        <H2>Matues Miranda</H2>
+        <H2>Mateus Miranda</H2>
         <Ul>
           <Li>Home</Li>
           <Li>Sobre</Li>
@@ -20,11 +20,11 @@ function App() {
       <>
         <Container>
           <ContainerSobre>
-            <Image alt='Minha-foto' src={profissional} />
             <P>
               Eu sou o Mateus Miranda!
               Desenvolvedor Web
             </P>
+            <Image alt='Minha-foto' src={profissional} />
           </ContainerSobre>
           <Dev>
             Como desenvolvedor front-end, minha missão é

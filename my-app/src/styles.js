@@ -12,7 +12,7 @@ export const Header = styled.header`
 `
 export const H2 = styled.h2`
     font-size: 25px;
-    color: #fff;
+    color: #000;
 `
 export const Ul = styled.ul`
     display: flex;
@@ -22,17 +22,18 @@ export const Li = styled.li`
     font-size: 15px;
     list-style: none;
     padding: 30px;
-    color: #fff;
+    color: #000;
     font-weight: 700;
+    cursor: pointer;
 `
 export const Container = styled.div`
     height: 100vw;
-    background-color: #000;
+    background-color: #f0f0e3;
 `
 export const ContainerSobre = styled.div`
    display: flex;
    flex-direction: row;
-    justify-content: space-around;
+   justify-content: space-around;
    align-items: center;
    padding: 50px;
 `
@@ -50,8 +51,8 @@ export const Image = styled.img`
 `
 export const Dev = styled.p`
   font-size: 30px;
-  color: #fff;
-  font-weight: 300;
+  color: #000;
+  font-weight: 600;
   text-align: center;
   position: relative;
   top: 55px;
