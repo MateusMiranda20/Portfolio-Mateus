@@ -2,7 +2,20 @@ import React from "react";
 
 import profissional from "../src/assets/profissional.jpeg"
 
-import { Header, H2, Ul, Li, Container, P, Image, ContainerSobre, Dev, } from './styles'
+import {
+  Header,
+  H2, 
+  Ul, 
+  Li, 
+  Container,
+  P,
+  Image, 
+  ContainerSobre, 
+  Dev, 
+  Main,
+  Title,
+  Aboutme,
+} from './styles'
 
 function App() {
 
@@ -31,8 +44,17 @@ function App() {
             fornecer um serviço de alta qualidade aos usuários,
             criando experiências incríveis e interfaces extremamente agradáveis.
           </Dev>
+          <>
+            <Main>
+              <Title>
+                Sobre Mim
+              </Title>
+              <Aboutme>
+                Aqui você encontrará mais infotmações sobre mim, o que eu faço e minha habilidades atuais principalmente em termos de programação e tecnologia
+              </Aboutme>
+            </Main>
+          </>
         </Container>
-
       </>
     </>
   )

@@ -12,23 +12,30 @@ export const Header = styled.header`
 `
 export const H2 = styled.h2`
     font-size: 25px;
-    color: #000;
+    color: #fff;
 `
 export const Ul = styled.ul`
     display: flex;
     flex-direction: row;
+
+    
+    :hover{
+        color: #000;
+        transition: 0.8s all;
+    }
 `
 export const Li = styled.li`
     font-size: 15px;
     list-style: none;
     padding: 30px;
-    color: #000;
+    color: #fff;
     font-weight: 700;
     cursor: pointer;
 `
+
 export const Container = styled.div`
-    height: 100vw;
-    background-color: #f0f0e3;
+    height: 100%;
+    background-color: #000;
 `
 export const ContainerSobre = styled.div`
    display: flex;
@@ -43,6 +50,7 @@ export const P = styled.p`
     font-size: 40px;
     font-weight: 700;
     width: 260px;
+    line-height: 1.1;
 `
 export const Image = styled.img`
     width: 30%;
@@ -51,12 +59,29 @@ export const Image = styled.img`
 `
 export const Dev = styled.p`
   font-size: 30px;
-  color: #000;
+  color: #fff;
   font-weight: 600;
   text-align: center;
-  position: relative;
-  top: 55px;
   line-height: 1.1;
-  padding: 0px 200px;
+  padding: 10px 200px;
 `
+export const Main = styled.main`
+    text-align: center;
+    margin-top: 170px;
+`
+export const Title = styled.h1`
+    color: #470684;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.1;
+`
+export const Aboutme = styled.p`
+    margin-top: 38px;
+    font-size: 23px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.1;
+    padding: 9px 240px;
 
+`
