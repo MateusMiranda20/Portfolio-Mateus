@@ -83,5 +83,31 @@ export const Aboutme = styled.p`
     text-align: center;
     line-height: 1.1;
     padding: 9px 240px;
-
+`
+export const Skills = styled.p`
+    margin-top: 80px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 27% 20% 20%;
+    column-gap: 20px;
+    justify-content: center;
+    justify-items: center;
+`
+export const Myskillsone = styled.p`
+    margin-top: 38px;
+    font-size: 23px;
+    color: #fff;
+    font-weight: 400;
+`
+export const Myskillstwo = styled.p`
+    margin-top: 38px;
+    font-size: 23px;
+    color: #fff;
+    font-weight: 400;
+`
+export const Stripe = styled.p`
+    background-color: #fff;
+    width: 2%;
+    height: 98%;
+    border-radius: 50px;
 `
