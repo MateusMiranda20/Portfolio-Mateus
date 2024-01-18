@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Header = styled.header`
     width: 100%;
     height: 60px;
-    background-color: #470684;
+    background-color:#b4beac;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -20,7 +20,7 @@ export const Ul = styled.ul`
 
     
     :hover{
-        color: #000;
+        color: #FFF;
         transition: 0.8s all;
     }
 `
@@ -28,14 +28,14 @@ export const Li = styled.li`
     font-size: 15px;
     list-style: none;
     padding: 30px;
-    color: #fff;
+    color: #341405;
     font-weight: 700;
     cursor: pointer;
 `
 
 export const Container = styled.div`
     height: 100%;
-    background-color: #000;
+    background-color: #b4beac;
 `
 export const ContainerSobre = styled.div`
    display: flex;
@@ -46,7 +46,7 @@ export const ContainerSobre = styled.div`
 `
 
 export const P = styled.p`
-    color: #470684;
+    color: #341405;
     font-size: 40px;
     font-weight: 700;
     width: 260px;
@@ -55,11 +55,11 @@ export const P = styled.p`
 export const Image = styled.img`
     width: 30%;
     border-radius: 50px;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 0 10px 0 rgba(255, 255, 255, 0.10);
+   // box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 0 10px 0 rgba(255, 255, 255, 0.10);
 `
 export const Dev = styled.p`
   font-size: 30px;
-  color: #fff;
+  color: #000;
   font-weight: 600;
   text-align: center;
   line-height: 1.1;
@@ -70,7 +70,7 @@ export const Main = styled.main`
     margin-top: 170px;
 `
 export const Title = styled.h1`
-    color: #470684;
+    color: #341405;
     font-size: 40px;
     font-weight: 700;
     line-height: 1.1;
@@ -78,7 +78,7 @@ export const Title = styled.h1`
 export const Aboutme = styled.p`
     margin-top: 38px;
     font-size: 23px;
-    color: #fff;
+    color: #000;
     font-weight: 400;
     text-align: center;
     line-height: 1.1;
@@ -86,28 +86,77 @@ export const Aboutme = styled.p`
 `
 export const Skills = styled.p`
     margin-top: 80px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
     display: grid;
     grid-template-columns: 27% 20% 20%;
     column-gap: 20px;
     justify-content: center;
     justify-items: center;
 `
-export const Myskillsone = styled.p`
-    margin-top: 38px;
-    font-size: 23px;
-    color: #fff;
-    font-weight: 400;
-`
-export const Myskillstwo = styled.p`
-    margin-top: 38px;
-    font-size: 23px;
-    color: #fff;
-    font-weight: 400;
-`
 export const Stripe = styled.p`
-    background-color: #fff;
+    background-color: #000;
     width: 2%;
     height: 98%;
     border-radius: 50px;
+    text-align: center;
 `
+export const Myskillsone = styled.p`
+    margin-top: 38px;
+    font-size: 23px;
+    color: #000;
+    font-weight: 400;
+`
+export const Myskillstwo = styled.p`
+    font-size: 23px;
+    color: #000;
+    font-weight: 400;
+    //  margin-left: 40px;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    div{
+        width: 150px;
+    }
+`
+
+export const Myprojects = styled.h2`
+    font-size: 30px;
+    color: #341405;
+    font-weight: 700;
+    text-align: center;
+    
+`
+export const ProjectsImg = styled.div`
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 80px;
+
+    div > p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #000;
+        padding: 0px 85px;
+        margin: 0px 130px;
+    }
+
+`
+export const Imagens = styled.img`
+    width: 45%;
+    height: 55%;
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    border-radius: 10px;
+    cursor: pointer;
+   
+   &:hover{
+    opacity: 0.7;
+    background-color: yellow;
+    z-index: 1;
+   }
+`
+
+

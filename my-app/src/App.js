@@ -1,6 +1,10 @@
 import React from "react";
 
-import profissional from "../src/assets/profissional.jpeg"
+import profissional from "./assets/profissional.jpeg"
+import projetos from "./assets/projetos.png"
+import barbearia from "./assets/barbearia.png"
+import converter from "./assets/converter.png"
+import tempo from "./assets/tempo.png"
 
 import {
   Header,
@@ -19,6 +23,9 @@ import {
   Myskillsone,
   Myskillstwo,
   Stripe,
+  Myprojects,
+  ProjectsImg,
+  Imagens,
 } from './styles'
 
 function App() {
@@ -39,7 +46,7 @@ function App() {
           <ContainerSobre>
             <P>
               Eu sou o Mateus Miranda!
-              Desenvolvedor Web
+              Desenvolvedor Front end
             </P>
             <Image alt='Minha-foto' src={profissional} />
           </ContainerSobre>
@@ -67,16 +74,70 @@ function App() {
                 ex ea commodo consequat.
               </Myskillsone>
               <Stripe>
-              
               </Stripe>
               <Myskillstwo>
-                Html    Css    Javascript
-                GitHub   Git    React.js
-                Node.js    PostgreSql
-                Docker    Styled-Components
+                <div>Html</div>
+                <div>Css</div>
+                <div>Javascript</div>
+                <div>Git</div>
+                <div>GitHub</div>
+                <div>React.js</div>
+                <div>Node.js</div>
+                <div>PostgreSql</div>
+                <div>Docker</div>
+                <div>Styled-Components</div>
               </Myskillstwo>
             </Skills>
-
+          </>
+          <>
+            <Myprojects>
+              Meus Projetos
+              <ProjectsImg>
+                <div>
+                  <Imagens alt='projetos' src={projetos} />
+                  <p> Neste projeto utilizei eu utilizei o
+                    framework React.js, junto com ele utilizei
+                    o styled-components.
+                    Aqui desenvolvi dua tela onde podemos colocar
+                    o nome e a idade de qualquer pessoa e ficara
+                    gravado na outra tela, usei o node.js como back-end.
+                  </p>
+                </div>
+                <div>
+                  <Imagens alt='projetos' src={barbearia} />
+                  <p>
+                    Neste projeto utilizei eu utilizei o
+                    framework React.js, junto com ele utilizei
+                    o styled-components.
+                    Aqui desenvolvi dua tela onde podemos colocar
+                    o nome e a idade de qualquer pessoa e ficara
+                    gravado na outra tela, usei o node.js como back-end.
+                  </p>
+                </div>
+                <div>
+                  <Imagens alt='projetos' src={tempo} />
+                  <p>
+                    Neste projeto utilizei eu utilizei o
+                    framework React.js, junto com ele utilizei
+                    o styled-components.
+                    Aqui desenvolvi dua tela onde podemos colocar
+                    o nome e a idade de qualquer pessoa e ficara
+                    gravado na outra tela, usei o node.js como back-end.
+                  </p>
+                </div>
+                <div>
+                  <Imagens alt='projetos' src={converter} />
+                  <p>
+                    Neste projeto utilizei eu utilizei o
+                    framework React.js, junto com ele utilizei
+                    o styled-components.
+                    Aqui desenvolvi dua tela onde podemos colocar
+                    o nome e a idade de qualquer pessoa e ficara
+                    gravado na outra tela, usei o node.js como back-end.
+                  </p>
+                </div>
+              </ProjectsImg>
+            </Myprojects>
           </>
         </Container>
       </>
