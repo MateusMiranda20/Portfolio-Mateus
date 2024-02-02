@@ -97,12 +97,9 @@ function App() {
                   <a href="https://cadastro-de-pessoas-lemon.vercel.app/" target="_blank" rel="noopener noreferrer">
                     <Imagens alt='projetos' src={projetos} />
                   </a>
-                  <p> Neste projeto utilizei eu utilizei o
-                    framework React.js, junto com ele utilizei
-                    o styled-components.
-                    Aqui desenvolvi dua tela onde podemos colocar
-                    o nome e a idade de qualquer pessoa e ficara
-                    gravado na outra tela, usei o node.js como back-end.
+                  <p> Neste projeto utilizei o
+                    framework React.js, junto com 
+                    o styled-components, na parte do back-end eu utilizei o node.js e API rest.
                   </p>
                 </div>
                 <div>
@@ -110,12 +107,8 @@ function App() {
                     <Imagens alt='projetos' src={barbearia} />
                   </a>
                   <p>
-                    Neste projeto utilizei eu utilizei o
-                    framework React.js, junto com ele utilizei
-                    o styled-components.
-                    Aqui desenvolvi dua tela onde podemos colocar
-                    o nome e a idade de qualquer pessoa e ficara
-                    gravado na outra tela, usei o node.js como back-end.
+                    Neste projeto utilizei Html, Css e Javascript vanilla.
+                    Trazendo uma solução de melhorias para o cliente como agendamento e precços de serviços.
                   </p>
                 </div>
                 <div>
@@ -123,12 +116,8 @@ function App() {
                     <Imagens alt='projetos' src={tempo} />
                   </a>
                   <p>
-                    Neste projeto utilizei eu utilizei o
-                    framework React.js, junto com ele utilizei
-                    o styled-components.
-                    Aqui desenvolvi dua tela onde podemos colocar
-                    o nome e a idade de qualquer pessoa e ficara
-                    gravado na outra tela, usei o node.js como back-end.
+                    Neste projeto usei o Html, Css e Javascript vanila.
+                    Utilizei uma API para buscar em tempo real a previsão do tempo.
                   </p>
                 </div>
                 <div>
@@ -136,12 +125,8 @@ function App() {
                     <Imagens alt='projetos' src={converter} />
                   </a>
                   <p>
-                    Neste projeto utilizei eu utilizei o
-                    framework React.js, junto com ele utilizei
-                    o styled-components.
-                    Aqui desenvolvi dua tela onde podemos colocar
-                    o nome e a idade de qualquer pessoa e ficara
-                    gravado na outra tela, usei o node.js como back-end.
+                    Neste projeto utilizei Html, Css e Javascript vanilla.
+                    Utilizei uma API para buscar em tempo real os valores das moedas indicadas no projeto.
                   </p>
                 </div>
               </ProjectsImg>
