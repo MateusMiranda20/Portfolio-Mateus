@@ -1,10 +1,10 @@
 import React from "react";
 
-import profissional from "./assets/profissional.jpeg"
-import projetos from "./assets/projetos.png"
-import barbearia from "./assets/barbearia.png"
-import converter from "./assets/converter.png"
-import tempo from "./assets/tempo.png"
+import profissional from "../../assets/profissional.jpeg"
+import projetos from "../../assets/projetos.png"
+import barbearia from "../../assets/barbearia.png"
+import converter from "../../assets/converter.png"
+import tempo from "../../assets/tempo.png"
 
 import {
   Header,
@@ -94,7 +94,9 @@ function App() {
               Meus Projetos
               <ProjectsImg>
                 <div>
-                  <Imagens alt='projetos' src={projetos} />
+                  <a href="https://cadastro-de-pessoas-lemon.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <Imagens alt='projetos' src={projetos} />
+                  </a>
                   <p> Neste projeto utilizei eu utilizei o
                     framework React.js, junto com ele utilizei
                     o styled-components.
@@ -104,7 +106,9 @@ function App() {
                   </p>
                 </div>
                 <div>
-                  <Imagens alt='projetos' src={barbearia} />
+                  <a href="https://iridescent-blini-672674.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <Imagens alt='projetos' src={barbearia} />
+                  </a>
                   <p>
                     Neste projeto utilizei eu utilizei o
                     framework React.js, junto com ele utilizei
@@ -115,7 +119,9 @@ function App() {
                   </p>
                 </div>
                 <div>
-                  <Imagens alt='projetos' src={tempo} />
+                  <a href="https://previsaotempoestados.netlify.app/" target="_blanck" rel="noopener noreferrer">
+                    <Imagens alt='projetos' src={tempo} />
+                  </a>
                   <p>
                     Neste projeto utilizei eu utilizei o
                     framework React.js, junto com ele utilizei
@@ -126,7 +132,9 @@ function App() {
                   </p>
                 </div>
                 <div>
-                  <Imagens alt='projetos' src={converter} />
+                  <a href="https://verdant-kheer-54d48c.netlify.app/" target="_blanck" rel="noopener noreferrer">
+                    <Imagens alt='projetos' src={converter} />
+                  </a>
                   <p>
                     Neste projeto utilizei eu utilizei o
                     framework React.js, junto com ele utilizei
