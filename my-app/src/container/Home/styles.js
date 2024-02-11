@@ -154,9 +154,37 @@ export const Imagens = styled.img`
    
    &:hover{
     opacity: 0.7;
-    background-color: yellow;
-    z-index: 1;
    }
+`
+export const MyContacts = styled.div`
+    width: 100%;
+`
+export const ContactTitle = styled.h3`
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:#341405 ;
+`
+export const Contacts = styled.li`
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30%;
+    padding: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+
+    :hover{
+        color: #fff;
+    }
+   
+    a{
+        color: #000;
+        text-decoration: none;
+    }
 `
 
 

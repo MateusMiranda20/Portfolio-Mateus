@@ -26,6 +26,9 @@ import {
   Myprojects,
   ProjectsImg,
   Imagens,
+  MyContacts,
+  ContactTitle,
+  Contacts,
 } from './styles'
 
 function App() {
@@ -86,6 +89,8 @@ function App() {
                 <div>PostgreSql</div>
                 <div>Docker</div>
                 <div>Styled-Components</div>
+                <div></div>
+                <div>Java</div>
               </Myskillstwo>
             </Skills>
           </>
@@ -132,6 +137,16 @@ function App() {
               </ProjectsImg>
             </Myprojects>
           </>
+          <MyContacts>
+            <ContactTitle>
+              Meus contatos
+            </ContactTitle>
+            <Contacts>
+                <li> <a href="https://www.linkedin.com/in/mateus-miranda-inacio/" target="_blanck" rel="noopener noreferrer">Linkedin</a></li>
+                <li>Email</li>
+                <li>Whatsapp</li>
+            </Contacts>
+          </MyContacts>
         </Container>
       </>
     </>
