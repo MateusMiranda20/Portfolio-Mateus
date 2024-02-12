@@ -143,7 +143,7 @@ function App() {
             </ContactTitle>
             <Contacts>
                 <li> <a href="https://www.linkedin.com/in/mateus-miranda-inacio/" target="_blanck" rel="noopener noreferrer">Linkedin</a></li>
-                <li>Email</li>
+                <li>GitHub</li>
                 <li>Whatsapp</li>
             </Contacts>
           </MyContacts>
