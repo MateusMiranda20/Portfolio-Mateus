@@ -5,6 +5,9 @@ import projetos from "../../assets/projetos.png"
 import barbearia from "../../assets/barbearia.png"
 import converter from "../../assets/converter.png"
 import tempo from "../../assets/tempo.png"
+import linkedin from "../../assets/linkedin.ico"
+import github from "../../assets/github.ico"
+import whatsapp from "../../assets/whatsapp.ico"
 
 import {
   Header,
@@ -139,12 +142,12 @@ function App() {
           </>
           <MyContacts>
             <ContactTitle>
-              Meus contatos
+              Para mais informações
             </ContactTitle>
             <Contacts>
-                <li> <a href="https://www.linkedin.com/in/mateus-miranda-inacio/" target="_blanck" rel="noopener noreferrer">Linkedin</a></li>
-                <li>GitHub</li>
-                <li>Whatsapp</li>
+                <li><a href="https://www.linkedin.com/in/mateus-miranda-inacio/" target="_blanck" rel="noopener noreferrer"><img src={linkedin}/></a></li>
+                <li><a href="https://github.com/MateusMiranda20" target="_blanck" rel="noopener noreferrer"><img src={github}/></a></li>
+                <li><a href="https://wa.me/12996676967" target="_blanck" rel="noopener noreferrer"><img src={whatsapp}/></a></li>
             </Contacts>
           </MyContacts>
         </Container>
